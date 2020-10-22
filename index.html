@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</class
+<body>
+    <form class="wrapper" name="calculator">
+        <section class="bg">
+            <input type="text" class="screen" name="answer" placeholder="R.V.A. CALCULATOR">
+        </section>
+
+        <section class="calc-button">
+            <div class="calc-button-row">
+                <input type="button" class="calc-button triple" value="c" onclick= "calculator.answer.value = ''"/>
+                <input type="button" class="calc-button " value="&divide;" onclick="calculator.answer.value = '/'"/>
+
+            </div>
+            <div class="calc-button-row">
+                <input type="button" class="calc-button" value="7" onclick="calculator.answer.value+= '7'" />
+                <input type="button" class="calc-button" value="8" onclick="calculator.answer.value+= '8'" />
+                <input type="button" class="calc-button" value="9" onclick="calculator.answer.value+= '9'" />
+                <input type="button" class="calc-button" value="x" onclick="calculator.answer.value+= '*'" />
+            </div>
+            
+            <div class="calc-button-row">
+                <input type="button" class="calc-button" value="4" onclick="calculator.answer.value += '4'" />
+                <input type="button" class="calc-button" value="5" onclick="calculator.answer.value += '5'" />
+                <input type="button" class="calc-button" value="6" onclick="calculator.answer.value += '6'" />
+                <input type="button" class="calc-button" value="-" onclick="calculator.answer.value += '-'" />
+
+            </div>
+
+            <div class="calc-button-row">
+                <input type="button" class="calc-button" value="1" onclick="calculator.answer.value += '1'" />
+                <input type="button" class="calc-button" value="2" onclick="calculator.answer.value += '2'" />
+                <input type="button" class="calc-button" value="3" onclick="calculator.answer.value += '3'" />
+                <input type="button" class="calc-button" value="+" onclick="calculator.answer.value += '+'" />
+
+            </div>
+            <div class="calc-button-row">
+                <input type="button" class="calc-button triple" value="0" onclick="calculator.answer.value += '0'"/>
+               
+                <input type="button" class="calc-button" value=" = "
+                onclick = "calculator.answer.value = eval(calculator.answer.value)"/>
+            </div>
+
+
+        </section>
+    </form>
+    
+</body>
+</html>

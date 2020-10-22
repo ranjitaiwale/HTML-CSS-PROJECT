@@ -1,0 +1,79 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111111;
+
+}
+.wrapper {
+    width: 400px;
+    background-color: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transform: translate(-50%, -50%);
+
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    border: 1px solid black;
+
+}
+
+.screen {
+    font-size: 40px;
+    text-align: right;
+    outline: none;
+    width: 93%;
+    height: 80px;
+    background-color: rgb(43, 250, 95);
+    color: #030303;
+    margin: 10px;
+    border: 1px solid black;
+    font-family:monospace;
+}
+.calc-button-row {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+.calc-button {
+    background-color: #4dc8e7;
+    color: black;
+    height: 70px;
+    flex-basis: 24.5%;
+    border: 1px solid black;
+    border-radius: 1%;
+    font-size: 40px;
+    cursor: pointer;
+    outline: none;
+
+}
+.calc-button:hover{
+    background: rgb(15, 14, 14);
+
+}
+.calc-button :active{
+    background-color: #000000;
+
+}
+.triple {
+    flex-basis: 74.8%;
+    border-radius: 1%;
+
+}
+.calc-button:last-child {
+   background-color: rgb(122, 223, 122);
+
+}
+.calc-button:last-child :hover{
+    background-color: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+.calc-button:last-child :active {
+    background-color: green;
+    box-shadow: 0 0 10px green, 0 0 40px green, 0 0 80px green;
+}
+.calc-button-row:last-child{
+    padding-bottom: 0;
+}
